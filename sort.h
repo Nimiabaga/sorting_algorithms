@@ -38,6 +38,7 @@ void quick(int *array, ssize_t first, ssize_t last, int size);
 void shell_sort(int *array, size_t size);
 void cocktail_sort_list(listint_t **list);
 void swap_nodes(listint_t *a, listint_t *b);
+void counting_sort(int *array, size_t size);
 
 void sort_count(int *array, size_t size, int radix, int *output);
 int get_maximum(int *array, int size);
