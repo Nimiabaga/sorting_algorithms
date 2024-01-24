@@ -34,31 +34,31 @@ int compare_strings(const char *str1, const char *str2)
 char get_numeric_value(deck_node_t *card)
 {
 	if (compare_strings(card->card->value, "Ace") == 0)
-		return 0;
+		return (0);
 	if (compare_strings(card->card->value, "1") == 0)
-		return 1;
+		return (1);
 	if (compare_strings(card->card->value, "2") == 0)
-		return 2;
+		return (2);
 	if (compare_strings(card->card->value, "3") == 0)
-		return 3;
+		return (3);
 	if (compare_strings(card->card->value, "4") == 0)
-		return 4;
+		return (4);
 	if (compare_strings(card->card->value, "5") == 0)
-		return 5;
+		return (5);
 	if (compare_strings(card->card->value, "6") == 0)
-		return 6;
+		return (6);
 	if (compare_strings(card->card->value, "7") == 0)
-		return 7;
+		return (7);
 	if (compare_strings(card->card->value, "8") == 0)
-		return 8;
+		return (8);
 	if (compare_strings(card->card->value, "9") == 0)
-		return 9;
+		return (9);
 	if (compare_strings(card->card->value, "10") == 0)
-		return 10;
+		return (10);
 	if (compare_strings(card->card->value, "Jack") == 0)
-		return 11;
+		return (11);
 	if (compare_strings(card->card->value, "Queen") == 0)
-		return 12;
+		return (12);
 
 	return (13);
 }
